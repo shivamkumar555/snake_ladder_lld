@@ -86,7 +86,7 @@ public class Board {
     public void printBoard(Queue<Player> players) {
         System.out.println("\nCurrent Board State:\n");
 
-        // Map position -> player names
+        // Map position -> player  names
         Map<Integer, List<String>> playerMap = new HashMap<>();
         for (Player p : players) {
             playerMap
