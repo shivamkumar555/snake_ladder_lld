@@ -83,19 +83,6 @@ public class Board {
         return finalPosition;
     }
 
-//    public void printBoard(Queue<Player> players) {
-//        System.out.println("\nCurrent Board State:");
-//
-//        for(int i = 0; i < sideLength; i++) {
-//            for(int j = 0; j < sideLength; j++) {
-//                int position = grid[i][j].getPosition();
-//                String cellContent = String.valueOf(position);
-//                System.out.print(cellContent + " ");
-//            }
-//            System.out.println("\n");
-//        }
-//    }
-
     public void printBoard(Queue<Player> players) {
         System.out.println("\nCurrent Board State:\n");
 
